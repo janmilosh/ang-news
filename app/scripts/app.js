@@ -21,6 +21,14 @@ app.config(function ($routeProvider) {
       templateUrl: 'views/showpost.html',
       controller: 'PostViewController'
     })
+    .when('/register', {
+      templateUrl: 'views/register.html',
+      controller: 'AuthController'
+    })
+    .when('/login', {
+      templateUrl: 'views/login.html',
+      controller: 'AuthController'
+    })
     .otherwise({
       redirectTo: '/'
     });

@@ -12,6 +12,11 @@ body {
   border-radius: 100px;
 }
 
+.nav span {
+  display: block;
+  padding: 15px;
+}
+
 
 /* MAIN POSTS PAGE */
 .post {
