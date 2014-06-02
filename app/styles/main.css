@@ -17,6 +17,10 @@ body {
   padding: 15px;
 }
 
+.form-group {
+  margin-right: 5px;
+}
+
 
 /* MAIN POSTS PAGE */
 .post {
