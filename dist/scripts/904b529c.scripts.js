@@ -1,1 +1,0 @@
-"use strict";var app=angular.module("angNewsApp",["ngCookies","ngResource","ngSanitize","ngRoute"]);app.config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/posts.html",controller:"PostsController"}).otherwise({redirectTo:"/"})}]),app.controller("PostsController",["$scope",function(a){a.post={url:"http://",title:""}}]);
